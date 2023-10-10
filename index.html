@@ -6,6 +6,12 @@
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
+    <meta name="description" content="Steaksta is an online directory that lists only the best food establishments,
+    in various cities around the world. I am world traveler as well as a culinary enthusiast, so i figured
+    why don't I make a website that displays my research . I have put a lot of time into this and I hope anytime
+    you travel to a new city you think of Steaksta for the food recommendations and eventually I will build it 
+    to where you may upload a list that will be revised by me and I will add valid recommendations .">
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-J58KNB8PJK"></script>
     <script>
@@ -15,8 +21,9 @@
 
       gtag('config', 'G-J58KNB8PJK');
     </script>
-    <title>Steaksta</title>
-    <link rel="stylesheet" href="assets/css/main.css" />
+
+   <link rel="stylesheet" href="assets/css/main.css">
+    
     <link rel="apple-touch-icon" sizes="57x57" href="images/fav/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/fav/apple-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="76x76" href="images/fav/apple-icon-76x76.png">
@@ -34,6 +41,8 @@
     <meta name="msapplication-TileImage" content="images/fav/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <link rel="apple-touch-icon" sizes="60x60" href="images/fav/apple-icon-60x60.png">
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=6524a0cd7da2d70012db43aa&product=inline-share-buttons&source=platform" async="async"></script>
+    <title>The Locals Food List - Home | Steaksta</title>
   </head>
 
   <body class="homepage is-preload">
@@ -85,7 +94,7 @@
 
         <div class="title">Welcome !</div>
         <div class="container">
-          <p class="style2">
+          <p class="style2 mobile-fix">
             A Place Where We Recount Our Culinary Discoveries
           </p>
         </div>
@@ -99,7 +108,7 @@
               <section class="highlight">
 
                 <div class="image featured">
-                  <img src="images/CafeView.jpg" alt=""/>
+                  <img src="images/CafeView.jpg" alt="homePage Cat. Cafés"/>
                 </div>
                 <h3>Cafés</h3>
                
@@ -108,7 +117,7 @@
             <div class="col-4 col-12-medium">
               <section class="highlight">
                 <div class="image featured"
-                  ><img src="images/Coffee.jpg" alt=""
+                  ><img src="images/Coffee.jpg" alt="homePage Cat. Coffee"
                 /></div>
                 <h3>Coffee</h3>
               </section>
@@ -116,7 +125,7 @@
             <div class="col-4 col-12-medium">
               <section class="highlight">
                 <div class="image featured"
-                  ><img src="images/steakhouse.jpeg" alt=""
+                  ><img src="images/steakhouse.jpeg" alt="homePage Cat. Steakhouse"
                 /></div>
                 <h3>Steakhouses</h3>
               </section>
@@ -138,12 +147,13 @@
           </header>
 
           <div class="row"></div>
-            <div class="col-6 col-12-medium">
+
+            <div class="col-6 col-12-medium eSubs">
 
               <!--Email Subscription -->
               <section>
                 <form method="POST" action="https://formspree.io/f/myyqbkqk">
-                  <div class="row gtr-50">
+                  <div class="eSubs row gtr-50">
 
                     <div class="col-6 col-12">
                       <input
@@ -152,27 +162,31 @@
                         id="contact-email"
                         placeholder="Email"
                       />
-                    </div>
-
-                    <div class="col-12">
                       <ul class="actions">
                         <li>
                           <input type="submit" class="style1" value="Submit" />
                         </li>
                       </ul>
-                      <div class="g-recaptcha" data-sitekey="6LcsKWQoAAAAAN5dm9xsslmtVvC56QdFhLglbkwN"></div>
                     </div>
+
+                    <div class="col-12"></div>
                   </div>
                 </form>
               </section>
             </div>
+
+            <div class="g-recaptcha" data-sitekey="6LcsKWQoAAAAAN5dm9xsslmtVvC56QdFhLglbkwN"></div>
+
+
+            <div class="sharethis-inline-share-buttons smButton"></div>
+
             <!--Footer-->
             <div class="steakstaFooter">
-              <h2 class="abbt"><a href="aboutPage.html">About</a></h2>
-              <h2 class="cntt"><a href="contactPage.html">Contact</a></h2>
-              <h2 class="faqq"><a href="faqPage.html">FAQ</a></h2>
-              <h2 class="pvcy"><a href="privacyPage.html">Privacy</a></h2>
-              <h2 class="tnc"><a href="termsPage.html">Terms & Conditions</a></h2>
+              <h2 class="abbt mobile-hide"><a href="aboutPage.html">About</a></h2>
+              <h2 class="cntt mobile-hide"><a href="contactPage.html">Contact</a></h2>
+              <h2 class="faqq mobile-hide"><a href="faqPage.html">FAQ</a></h2>
+              <h2 class="pvcy mobile-hide"><a href="privacyPage.html">Privacy</a></h2>
+              <h2 class="tnc mobile-hide"><a href="termsPage.html">Terms & Conditions</a></h2>
             </div>
           </div>
         </div>

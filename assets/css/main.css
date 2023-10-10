@@ -1675,6 +1675,10 @@ input, select, textarea {
 		.button.style1 {
 			background: #e97770 url("images/overlay.png");
 			color: #fff;
+			min-width: 12em;
+			min-height: 0px;
+			max-height: 45px;
+			line-height: 40px;
 		}
 
 			input[type="button"].style1:hover,
@@ -3038,19 +3042,97 @@ input, select, textarea {
     	border-radius: 10px;
     	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
 	}
-	
+	.g-recaptcha{
+		margin: 0 0 0 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 	#g-recaptcha-response {
 		display: block !important;
 		position: absolute;
 		margin: -50px 0 0 0 !important;
 		z-index: -999999;
 		opacity: 0;
-		}
-
-	
-	.g-recaptcha{
-		margin: 10px;
 	}
+	.smButton{
+		margin: 25px 0 0 0;
+	}
+
+	@media only screen and (max-width: 768px) {
+		.mobile-hide {
+		  display: none;
+		}
+		.g-recaptcha{
+			margin: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.eSubs{
+			display: block;
+			margin: 20px 0 5px 0;
+		}
+		input[type="button"],
+		input[type="submit"],
+		input[type="reset"],
+		button,
+		.button{
+			text-align: center;
+			text-transform: uppercase;
+			font-weight: 600;
+			letter-spacing: 0;
+			text-decoration: none;
+			padding: 0;
+			margin: 0;
+			
+		}
+		input[type="button"].style1,
+		input[type="submit"].style1,
+		input[type="reset"].style1,
+		button.style1,
+		.button.style1 {
+			background: #e97770 url("images/overlay.png");
+			color: #fff;
+			min-width: 9em;
+			max-width: 9em;
+			min-height: 40px;
+			max-height: 40px;
+			line-height: 40px;
+			margin: 20px auto 0;			
+		}
+		input[type="button"].style3,
+		input[type="submit"].style3,
+		input[type="reset"].style3,
+		button.style3,
+		.button.style3 {
+			background: #2f333b url("images/overlay.png");
+			color: #fff;
+			min-width: 100;
+			max-width: 100;
+			min-height: 50px;
+			max-height: 50px;
+			line-height: 40px;
+			margin: 20px auto 0;
+
+		}
+		.row > .col-12 {
+			width: 100%;
+			display: block;
+			justify-content: center;
+			align-items: center;
+		}
+		.curvR img{
+			margin: 0 0 10px 0;
+			border-radius: 5px;
+			max-width: 100%;
+    		max-height: 225px;
+    		object-fit: cover;
+    		border-radius: 1%;
+    		border-radius: 10px;
+    		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+		}
+	  }
 	
 
 	/* Footer2 */
