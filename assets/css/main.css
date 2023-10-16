@@ -2172,7 +2172,7 @@ input, select, textarea {
 		padding: 1.25em 1em 1.25em 1em;
 		border-radius: 0.35em;
 		box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
-		min-width: 12em;
+		min-width: 11em;
 		text-align: left;
 		margin-top: -1.25em;
 		margin-left: -1px;
