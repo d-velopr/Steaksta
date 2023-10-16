@@ -21,6 +21,9 @@ Credits:
 	Icons:
 		Font Awesome (fontawesome.io)
 
+	Media Queries: 
+   		http://foundation.zurb.com/docs/media-queries.html
+
 	Other:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)

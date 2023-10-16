@@ -3,6 +3,3 @@ Disallow: /assets/
 Disallow: /images/
 Disallow: /LICENSE.txt
 Disallow: /README.txt
-Disallow: /termsPage.html
-Disallow: /privacyPage.html
-Disallow: /faqPage.html
